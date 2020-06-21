@@ -11,7 +11,9 @@
 		1931FD57249DC121009CDBF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1931FD56249DC121009CDBF1 /* SceneDelegate.swift */; };
 		1931FD5E249DC122009CDBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1931FD5D249DC122009CDBF1 /* Assets.xcassets */; };
 		1931FD61249DC122009CDBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1931FD5F249DC122009CDBF1 /* LaunchScreen.storyboard */; };
-		1931FD69249DC1D0009CDBF1 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1931FD68249DC1D0009CDBF1 /* PhotoCollectionViewController.swift */; };
+		1931FD69249DC1D0009CDBF1 /* PhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1931FD68249DC1D0009CDBF1 /* PhotoCollectionVC.swift */; };
+		193366D8249FEAC400067B5A /* DetailPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193366D7249FEAC400067B5A /* DetailPhotoVC.swift */; };
+		197D2933249FAECD00AFB2A6 /* PhotoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D2932249FAECD00AFB2A6 /* PhotoCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +23,9 @@
 		1931FD5D249DC122009CDBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1931FD60249DC122009CDBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1931FD62249DC122009CDBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1931FD68249DC1D0009CDBF1 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		1931FD68249DC1D0009CDBF1 /* PhotoCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionVC.swift; sourceTree = "<group>"; };
+		193366D7249FEAC400067B5A /* DetailPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotoVC.swift; sourceTree = "<group>"; };
+		197D2932249FAECD00AFB2A6 /* PhotoCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				1931FD54249DC121009CDBF1 /* AppDelegate.swift */,
 				1931FD56249DC121009CDBF1 /* SceneDelegate.swift */,
-				1931FD68249DC1D0009CDBF1 /* PhotoCollectionViewController.swift */,
+				197D2932249FAECD00AFB2A6 /* PhotoCVCell.swift */,
+				1931FD68249DC1D0009CDBF1 /* PhotoCollectionVC.swift */,
+				193366D7249FEAC400067B5A /* DetailPhotoVC.swift */,
 				1931FD5D249DC122009CDBF1 /* Assets.xcassets */,
 				1931FD5F249DC122009CDBF1 /* LaunchScreen.storyboard */,
 				1931FD62249DC122009CDBF1 /* Info.plist */,
@@ -135,8 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1931FD55249DC121009CDBF1 /* AppDelegate.swift in Sources */,
-				1931FD69249DC1D0009CDBF1 /* PhotoCollectionViewController.swift in Sources */,
+				1931FD69249DC1D0009CDBF1 /* PhotoCollectionVC.swift in Sources */,
 				1931FD57249DC121009CDBF1 /* SceneDelegate.swift in Sources */,
+				197D2933249FAECD00AFB2A6 /* PhotoCVCell.swift in Sources */,
+				193366D8249FEAC400067B5A /* DetailPhotoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
